@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(245, 240, 240);
+}
+
+.navbar {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    font-size: 1.2rem;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    padding-top: 10px;
+    padding-left: 10px;
+    color:black;
+}
+
+.profile_photo {
+    border-radius: 50%;
+    max-height: 20%;
+    max-width: 20%;
+}
+
+.profile_photo:hover {
+    box-shadow: 0 0 2px 1px rgba(235, 98, 18, 0.5);
+}
